@@ -1,0 +1,30 @@
+# Compiled Object files
+*.slo
+*.lo
+*.o
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+
+# autotools build files
+Makefile
+.deps
+config.h
+config.log
+config.status
+
+# vim files
+*.swp
+
+# project-specific build files
+doc/fbterm.1
+im/immessage.h
+im/input_key.h
+src/fbterm
+stamp-h1

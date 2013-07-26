@@ -36,7 +36,6 @@ static u8 bgcolor;
 
 void Screen::setPalette(const Color *palette)
 {
-	if (mPalette == palette) return;
 	mPalette = palette;
 
 	for (u32 i = 0; i < NR_COLORS; i++) {
